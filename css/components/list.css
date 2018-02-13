@@ -1,0 +1,54 @@
+@media(max-width: 992px) {
+.list { width: 700px; }
+}
+@media(max-width: 768px) {
+.list { width: 500px; }
+}
+@media(max-width: 480px) {
+.list { width: 300px; }
+}
+
+.product {
+  display: flex;
+  border-radius: 3px;
+  width: 900px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.product h3 {
+  font-family: Coneria Script Demo;
+  transition: all 0.5s ease;
+  font-size: 21px;
+  text-align: center;
+}
+
+.product:hover {
+  background: rgb(255, 243, 244);
+}
+
+.product:hover .product-description h3 {
+  font-size: 23px;
+}
+
+.product-upvote {
+  font-size: 15px;
+  padding: 10px;
+}
+
+.product-description {
+  flex: 1 0 auto;
+  padding: 10px;
+}
+
+.product-controls a {
+  font-size: 17px;
+  transition: all 0.3s ease;
+  color: #CCCCCC;
+}
+
+.product-controls:hover a {
+  font-size: 20px;
+  color: #A7333F;
+}
+

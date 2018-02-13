@@ -1,0 +1,44 @@
+.card {
+  position: relative;
+  height: 250px;
+  background: linear-gradient(-110deg, rgba(20,20,20,0.6) 10%, rgba(30,30,30,0.5) 30%), url("");
+  background-size: cover;
+  padding: 20px;
+  margin: 5px;
+  text-align: center;
+}
+
+.card-user {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+.card-category {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 13px;
+  text-shadow: 1px 1px 2px black;
+  color: rgb(240,240,240);
+  font-style: italic;
+}
+.card-description {
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+  text-shadow: 1px 3px 3px black;
+  color: white;
+  font-family: Coneria Script Demo;
+}
+
+#leftcard {
+  background-image: url("../../images/starter.jpeg");
+}
+
+#middlecard {
+  background-image: url("../../images/pancakes.jpeg");
+}
+
+#rightcard {
+  background-image: url("../../images/plat.jpeg");
+}

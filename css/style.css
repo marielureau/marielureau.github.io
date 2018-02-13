@@ -1,0 +1,76 @@
+/* style.css */
+@import url("components/card.css");
+@import url("components/list.css");
+@import url("components/dropdown.css");
+@import url("components/avatar.css");
+
+#banner {
+	text-align: center;
+  background-image: url("../images/cuisine.jpg");
+  height: 490px;
+  background-size: cover;
+  padding: 90px;
+}
+
+#banner p {
+	color: white;
+	font-size: 20px;
+  text-shadow: 5px 5px 4px black;
+}
+
+.headerlink {
+  border: solid #A7333F;
+  border-radius: 7px;
+  background-color: #A7333F;
+  font-family: Lato;
+  font-size: 16px;
+  padding: 7px;
+  text-align: center;
+  color: white;
+  transition: all 0.4s ease;
+}
+
+.headerlink:hover {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: Lato;
+  font-size: 20px;
+}
+
+p {
+  font-family: Lato;
+  font-size : 16px;
+  color: black;
+  text-align: center;
+  padding: 10px;
+}
+
+#footer {
+	background-color: #08090A;
+	color: white;
+  text-align: center;
+	padding: 10px;
+}
+
+#footer p {
+  color: white;
+}
+
+#footer a {
+	color: white;
+	font-size: 30px;
+	transition: all 0.6s ease;
+}
+
+ #footer li {
+ 	padding: 10px;
+ }
+
+ #footer a:hover {
+  color: #A7333F;
+  font-size: 40px;
+}

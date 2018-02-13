@@ -1,0 +1,37 @@
+.dropdown {
+	text-align: right;
+	padding: 10px;
+}
+
+.dropdown-menu a {
+  font-size: 14px;
+  font-family: Lato;
+  color : black;
+}
+
+.header {
+  position: relative;
+  height: 65px;
+}
+
+.dropdown {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+ }
+
+.header p {
+	position: absolute;
+  top: 13px;
+  right: 55px;
+  font-size: 15px;
+  font-family: Lato;
+}
+
+.header h3 {
+	position: absolute;
+	top: 4px;
+  left: 8px;
+  font-size: 20px;
+  font-family: Coneria Script Demo;
+}
